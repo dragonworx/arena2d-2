@@ -1,0 +1,30 @@
+.arena-sprite {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 0;
+    cursor: pointer;
+}
+
+.arena-scene {
+    width: 640px;
+    height: 480px;
+    background-color: gray;
+}
+
+#sprite1 {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+}
+
+#sprite2 {
+    background-color: black;
+    width: 100px;
+    height: 100px;
+}
+
+#sprite2:hover {
+    background-color: red;
+}
